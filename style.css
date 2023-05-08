@@ -204,3 +204,57 @@ label{
     font-style: 18px;
     cursor: pointer;
 }
+
+/*responsive design*/
+
+@media only screen and (min-width:400px) {
+    .cvc-number{
+        top: 106px;
+    }
+    .cb-front{
+        top: 130px;
+    }
+}
+
+@media only screen and (min-width:450px) {
+    .cvc-number{
+        top: 120px;
+        right: -260px;
+    }
+
+    .cb-front{
+        top: 143px;
+    }
+
+    .logo-card{
+        top: 160px;
+        left: 50px;
+    }
+
+    .card-number{
+        top: 230px;
+        left: 50%;
+        transform: translateX(-39%);
+    }
+
+    .user-name{
+        top: 270px;
+        z-index: 4;
+        width: 100%;
+        left: 50px;
+    }
+    
+    .expiration-date{
+        top: 270px;
+        z-index: 4;
+        width: 100%;
+        right: -290px;
+    }
+}
+
+@media only screen and (min-width:480px) {
+
+    .cb-front{
+        top: 150px;
+    }
+}
