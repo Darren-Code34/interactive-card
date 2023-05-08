@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./formcontrol.js" defer></script>
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card-info">
+      <img class="bg-mobil" src="./images/bg-main-mobile.png" alt="background image">
+      <img class="bg-desktop" src="./images/bg-main-desktop.png" alt="background image">
+      <img class="cb-back" src="./images/bg-card-back.png" alt="card back image">
+      <p class="cvc-number">000</p>
+      <img class="cb-front" src="./images/bg-card-front.png" alt="card front image">
+      <div class="card-info-submitted">
+        <img class="logo-card" src="./images/card-logo.svg" alt="card-logo">
+        <p class="card-number"><span class="1st part">0000</span> 
+          <span class="2nd part">0000</span> 
+          <span class="3rd part">0000</span> 
+          <span class="4th part">0000</span>
+        </p>
+        <p class="user-name">Jane Appleseed</p>
+        <p class="expiration-date">00/00</p>
+
+      </div>
+    </div>
+  </div>
+
+  <form>
+    <div class="input-group">
+      <label for="name">Cardholder Name</label>
+      <input type="text" id="name" placeholder="e.g. Jane Appleseed">
+    </div>
+
+    <div class="input-group">
+      <label for="number">Card Number</label>
+      <input type="number" placeholder="e.g. 1234 5678 9123 0000">
+    </div>
+
+    <div class="flex">
+      <div class="input-group input-validity">
+        <label for="">Exp. Date (MM/YY)</label>
+        <input type="number" id="month" placeholder="MM"> <input type="number" id="year" placeholder="YY">
+      </div>
+  
+      <div class="input-group input-cvc">
+        <label for="cvc">CVC</label>
+        <input type="number" placeholder="e.g. 123">
+      </div>
+    </div>
+
+    <input class="submit" type="submit" value="Confirm">
+  </form>
+
+  
+
+  <!-- Completed state start -->
+
+  <div class="message-card-saved">
+    <img class="check" src="./images/icon-complete.svg" alt="check icon">
+    <p class="thank">Thank you!</p>
+    <p class="message">We've added your card details</p>
+    <button class="continue">Continue</button>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Darren Mibissa</a>.
+  </div>
+</body>
+</html>
