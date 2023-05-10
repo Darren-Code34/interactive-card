@@ -258,3 +258,368 @@ label{
         top: 150px;
     }
 }
+
+@media only screen and (min-width:1000px) {
+    .container{
+        display: flex;
+    }
+    .card-info{
+        width: 65%;
+    }
+
+    .bg-mobil{
+        display: none;
+    }
+
+    .bg-desktop{
+        display: block;
+        width: 70%;
+        height: 60vw;
+    }
+
+    .cb-back{
+        top: 300px;
+        width: 50%;
+        left: 250px;
+    }
+
+    .cvc-number{
+        top: 355px;
+        width: 80%;
+        left: 440px;
+    }
+    
+    .cb-front{
+        top: 135px;
+        width: 50%;
+        left: 220px;
+    }
+    
+    .card-info-submitted{
+        width: 100%;
+    }
+    
+    .logo-card{
+        top: 150px;
+        z-index: 4;
+        width: 50px;
+        left: 235px;
+    }
+    
+    .card-number{
+        top: 210px;
+        width: 100%;
+        left: 430px;
+        font-size: 20px;
+    }
+    
+    .user-name{
+        top: 250px;
+        width: 100%;
+        left: 235px;
+    }
+    
+    .expiration-date{
+        top: 250px;
+        width: 100%;
+        left: 430px;
+    }
+
+    form{
+        margin-top: 150px;
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (min-width:1050px) {
+    .card-number{
+        position: absolute;
+        top: 210px;
+        z-index: 4;
+        width: 100%;
+        left: 460px;
+        font-size: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .cb-back{
+        top: 320px;
+        width: 50%;
+        left: 250px;
+    }
+
+    .cvc-number{
+        top: 380px;
+        left: 450px;
+    }
+}
+
+@media only screen and (min-width:1150px) {
+    .card-number{
+        position: absolute;
+        top: 210px;
+        z-index: 4;
+        width: 100%;
+        left: 480px;
+        font-size: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .cvc-number{
+        top: 390px;
+        left: 480px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    
+    form{
+        margin-top: 150px;
+        padding-left: 0;
+        padding-right: 60px;
+    }
+    .card-number{
+        position: absolute;
+        top: 220px;
+        z-index: 4;
+        width: 100%;
+        left: 500px;
+        font-size: 22px;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .cb-back{
+        top: 330px;
+        width: 50%;
+        left: 250px;
+    }
+
+    .cvc-number{
+        top: 410px;
+        left: 500px;
+    }
+
+    .user-name{
+        top: 265px;
+        width: 100%;
+        left: 235px;
+    }
+    
+    .expiration-date{
+        top: 265px;
+        width: 100%;
+        left: 460px;
+    }
+}
+
+@media only screen and (min-width:1250px) {
+    
+    .cb-back{
+        top: 350px;
+        width: 50%;
+        left: 250px;
+    }
+    .card-number{
+        position: absolute;
+        top: 230px;
+        z-index: 4;
+        width: 100%;
+        left: 520px;
+        font-size: 23px;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .cvc-number{
+        top: 435px;
+        left: 515px;
+    }
+
+    .user-name{
+        top: 275px;
+        width: 100%;
+        left: 235px;
+        font-size: 14px;
+    }
+    
+    .expiration-date{
+        top: 275px;
+        width: 100%;
+        left: 475px;
+        font-size: 14px;
+
+    }
+}
+
+@media only screen and (min-width:1350px) {
+    
+    .cb-back{
+        top: 370px;
+        width: 50%;
+        left: 250px;
+    }
+    .card-number{
+        position: absolute;
+        top: 240px;
+        z-index: 4;
+        width: 100%;
+        left: 545px;
+        font-size: 26px;
+    }
+
+    .cvc-number{
+        top: 465px;
+        left: 545px;
+    }
+
+    .user-name{
+        top: 290px;
+        width: 100%;
+        left: 235px;
+    }
+    
+    .expiration-date{
+        top: 290px;
+        width: 100%;
+        left: 500px;
+    }
+
+    form{
+        margin-top: 150px;
+        padding-left: 0;
+        padding-right: 80px;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    
+    .cb-back{
+        top: 380px;
+        width: 50%;
+        left: 250px;
+    }
+    .card-number{
+        position: absolute;
+        top: 240px;
+        z-index: 4;
+        width: 100%;
+        left: 565px;
+        font-size: 28px;
+    }
+
+    .cvc-number{
+        top: 480px;
+        left: 565px;
+    }
+
+    .user-name{
+        top: 300px;
+        width: 100%;
+        left: 235px;
+    }
+    
+    .expiration-date{
+        top: 300px;
+        width: 100%;
+        left: 520px;
+    }
+}
+
+@media only screen and (min-width:1450px) {
+    
+    .cb-back{
+        top: 395px;
+        width: 50%;
+        left: 320px;
+    }
+
+    .cb-front{
+        top: 135px;
+        width: 50%;
+        left: 260px;
+    }
+
+    .logo-card{
+        top: 155px;
+        z-index: 4;
+        width: 55px;
+        left: 285px;
+    }
+    .card-number{
+        position: absolute;
+        top: 240px;
+        z-index: 4;
+        width: 100%;
+        left: 630px;
+        font-size: 30px;
+    }
+
+    .cvc-number{
+        top: 500px;
+        left: 650px;
+        font-size: 18px;
+    }
+
+    .user-name{
+        top: 310px;
+        width: 100%;
+        left: 285px;
+        font-size: 15px;
+    }
+    
+    .expiration-date{
+        top: 310px;
+        width: 100%;
+        left: 600px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    
+    .cb-back{
+        top: 410px;
+        width: 50%;
+        left: 320px;
+    }
+
+    .cb-front{
+        top: 135px;
+        width: 50%;
+        left: 260px;
+    }
+
+    .logo-card{
+        top: 155px;
+        z-index: 4;
+        width: 60px;
+        left: 295px;
+    }
+    .card-number{
+        position: absolute;
+        top: 240px;
+        z-index: 4;
+        width: 100%;
+        left: 660px;
+        font-size: 32px;
+    }
+
+    .cvc-number{
+        top: 520px;
+        left: 670px;
+        font-size: 19px;
+    }
+
+    .user-name{
+        top: 315px;
+        width: 100%;
+        left: 295px;
+        font-size: 15px;
+    }
+    
+    .expiration-date{
+        top: 315px;
+        width: 100%;
+        left: 625px;
+        font-size: 15px;
+    }
+}
