@@ -47,18 +47,18 @@
   
       <div class="input-group">
         <label for="number">Card Number</label>
-        <input type="number" placeholder="e.g. 1234 5678 9123 0000">
+        <input type="number" id="number" placeholder="e.g. 1234 5678 9123 0000" maxlength="16">
       </div>
   
       <div class="flex">
         <div class="input-group input-validity">
           <label for="">Exp. Date (MM/YY)</label>
-          <input type="number" id="month" placeholder="MM"> <input type="number" id="year" placeholder="YY">
+          <input type="number" id="month" placeholder="MM" maxlength="2"> <input type="number" id="year" placeholder="YY" maxlength="2">
         </div>
     
         <div class="input-group input-cvc">
           <label for="cvc">CVC</label>
-          <input type="number" placeholder="e.g. 123">
+          <input type="number" id="cvc" placeholder="e.g. 123" maxlength="3">
         </div>
       </div>
   
