@@ -139,4 +139,13 @@ function handleForm(e){
     card_number.textContent = cardNumber
     expiration_date.textContent = `${monthExpiration}/${yearExpiration}`
     cvc_number.textContent = cvcNumber
+
+    showSucces()
+}
+
+const msgSucces = document.querySelector(".message-card-saved")
+
+function showSucces(){
+    form.style.display ="none"
+    msgSucces.style.display = "block"
 }
