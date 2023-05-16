@@ -51,18 +51,6 @@ function numberCardValidation(){
             msgError.style.display = "none"
         },2000)
     }
-    else if(cardNumberInput.value.length === 16 && parseInt(cardNumberInput.value, 10) === NaN ){
-        cardNumberInput.style.borderColor = "hsl(0, 100%, 66%)"
-        const msgError = document.createElement("p")
-        msgError.classList.add("msg-error")
-        msgError.innerText = "Wrong format, number only"
-        inputsGroup[1].appendChild(msgError)
-        setTimeout(()=>{
-            cardNumberInput.style.borderColor ="hsl(249, 99%, 64%)"
-            cardNumberInput.value =""
-            msgError.style.display = "none"
-        },2000)
-    }
     else{
         cardNumber =  cardNumberInput.value
     }
